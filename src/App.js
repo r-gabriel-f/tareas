@@ -1,3 +1,4 @@
+import Firebase from "./components/Firebase/Firebase";
 import { Login } from "./components/Login/Login";
 
 function App() {

@@ -12,10 +12,15 @@ export const Login = () => {
       </div>
       <div className="flex items-center justify-center ">
         <div className="border-2 border-black rounded-md p-4 w-full mx-10">
-          <h1 className="flex justify-center text-2xl font-bold mb-4 ">INICIAR SESIÓN</h1>
+          <h1 className="flex justify-center text-2xl font-bold mb-4 ">
+            INICIAR SESIÓN
+          </h1>
           <form>
             <div className="mb-4">
-              <label for="username" className="block text-gray-700 font-semibold">
+              <label
+                for="username"
+                className="block text-gray-700 font-semibold"
+              >
                 Nombre de usuario
               </label>
               <input
@@ -27,7 +32,10 @@ export const Login = () => {
               />
             </div>
             <div className="mb-4">
-              <label for="password" className="block text-gray-700 font-semibold">
+              <label
+                for="password"
+                className="block text-gray-700 font-semibold"
+              >
                 Contraseña
               </label>
               <input
@@ -39,14 +47,13 @@ export const Login = () => {
               />
             </div>
             <div className="flex justify-center">
-            <button
-              type="submit"
-              className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600"
-            >
-              Iniciar Sesión
-            </button>
+              <button
+                type="submit"
+                className="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600"
+              >
+                Iniciar Sesión
+              </button>
             </div>
-            
           </form>
         </div>
       </div>
