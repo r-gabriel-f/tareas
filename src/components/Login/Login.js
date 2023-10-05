@@ -1,6 +1,7 @@
 import React from "react";
 
 export const Login = () => {
+
   return (
     <section className="grid grid-cols-2 gap-4 h-screen border">
       <div className="flex items-center justify-center">
@@ -27,7 +28,7 @@ export const Login = () => {
                 type="text"
                 id="username"
                 name="username"
-                className="border border-gray-400 p-2 rounded w-full"
+                className="border b order-gray-400 p-2 rounded w-full"
                 placeholder="Ingrese su nombre de usuario"
               />
             </div>
